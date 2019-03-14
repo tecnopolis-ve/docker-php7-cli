@@ -13,6 +13,7 @@ RUN apk --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/commun
         curl \
         unzip \
 	php7-intl \
+	php7-gd \
         php7 \
         php7-xml \
         php7-zip \
