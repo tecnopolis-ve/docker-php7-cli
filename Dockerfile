@@ -12,8 +12,10 @@ RUN apk --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/commun
         git \
         curl \
         unzip \
+	libpng-dev \
+	libjpeg-dev \
 	php7-intl \
-	php-gd \
+	php7-gd \
         php7 \
         php7-xml \
         php7-zip \
